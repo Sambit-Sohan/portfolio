@@ -1,81 +1,104 @@
 # Sambit Sohan Sahoo — Portfolio
 
-This portfolio project is organized into three core files and is designed as a static, responsive personal website:
+A personal portfolio website built with plain HTML, CSS, and JavaScript. It is a static front-end project designed to showcase my profile, work experience, technical skills, and selected projects.
 
-- `portfolio.html` — structure and content for the portfolio page
-- `styles.css` — all styling, layout, theming, and responsive behavior
-- `script.js` — interactivity such as theme switching, active section tracking, filters, and email actions
+**Live site:** https://sambit-frontend-dev-portfolio.netlify.app/
 
-It is a single-page portfolio built with plain HTML, CSS, and JavaScript, with no framework or build tool required.
-
-**Live site:** https://claude.ai/artifact/GWSBurz3LmZ7fgFMJ7gorv
+**GitHub repository:** https://github.com/Sambit-Sohan/portfolio
 
 ## About
 
-This portfolio showcases Sambit Sohan Sahoo as a Front-End Developer with experience in software testing and quality assurance on an HP e-commerce platform. The site includes sections for About, Skills, Experience, Projects, Education, and Contact.
+This portfolio is for Sambit Sohan Sahoo, a Front-End Developer based in Bhubaneswar, Odisha. It highlights my experience in front-end development, UI work, and software testing background on a live HP e-commerce platform.
 
-## Portfolio sections
-
-The single portfolio page contains the following sections:
-
+The page includes sections for:
 - About
 - Technical Skills
 - Experience
 - Projects
-- Education and Training
+- Education
 - Contact
 
-## Features
+## Key features
 
-- **Light and dark themes** — automatic theme detection with a manual toggle and saved preference in `localStorage`
-- **Sticky sidebar navigation** — desktop layout keeps profile information and navigation visible while scrolling
-- **Responsive mobile navigation** — small-screen layout switches to a top navigation bar for easier section access
-- **Scroll-aware section highlighting** — active navigation item updates as the user moves through the page
-- **Interactive layout demo** — a slider demonstrates how CSS Grid and container queries reflow content across different widths
-- **Project filtering** — projects can be filtered by JavaScript, HTML/CSS, and Testing categories
-- **Email actions** — email links copy the address and offer Gmail/Outlook shortcuts for faster communication
-- **Accessible design** — skip link, focus styles, semantic structure, and keyboard-friendly modal behavior
-- **No dependencies** — built using only native web technologies
+- **Responsive layout** for desktop and mobile screens
+- **Light and dark theme toggle** with saved preference
+- **Sticky sidebar navigation** on larger screens
+- **Section-aware navigation highlighting** while scrolling
+- **Project category filters** for JavaScript, HTML/CSS, and Testing
+- **Interactive demo slider** showing responsive grid behavior
+- **Email shortcuts** for Gmail, Outlook, and clipboard copy
+- **Accessible UI** with semantic structure and focus states
 
 ## Tech stack
 
-- **HTML5** — semantic page structure and content markup
-- **CSS3** — variables, Grid, Flexbox, responsive design, and theming
-- **Vanilla JavaScript (ES6+)** — DOM interactions and UI behavior
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript (ES6+)**
 
 ## Project structure
 
 ```text
 .
-├── portfolio.html   # Main portfolio page structure and content
-├── styles.css       # Styling for the entire portfolio layout and theme
-├── script.js        # JavaScript for interactivity and behavior
-├── README.md        # Project overview and usage instructions
-└── (optional assets if added later)
+├── portfolio.html   # Main portfolio page markup and content
+├── styles.css       # Styling, layout, and theme design
+├── script.js        # Interactive functionality and behavior
+├── README.md        # Project documentation
+└── .gitignore       # Git ignore rules (if present)
 ```
+
+## Projects included in the portfolio
+
+The projects section includes:
+
+1. **HP E-Commerce Platform: Testing**
+   - Client project
+   - Manual testing, regression testing, defect tracking, and release support
+
+2. **Student Result Management System**
+   - Web app
+   - GitHub project link included
+
+3. **Currency Converter**
+   - Utility app
+   - JavaScript-based conversion tool
+
+4. **Landing Page**
+   - Static landing page built with HTML and CSS
+
+5. **Portfolio**
+   - Personal portfolio website
+   - GitHub repository: https://github.com/Sambit-Sohan/portfolio
+
+> The calculator project was removed from the main portfolio project list.
 
 ## Getting started
 
-No installation is required.
+No installation or build step is required.
 
-1. Open `portfolio.html` directly in a browser, or run a local static server:
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Sambit-Sohan/portfolio.git
+   cd portfolio
+   ```
+
+2. Open `portfolio.html` directly in the browser, or run a local server:
 
    ```bash
    python -m http.server 8000
    ```
 
-2. Visit:
-
-   ```text
-   http://localhost:8000
-   ```
+3. Visit `http://localhost:8000` in your browser.
 
 ## Deployment
 
-This is a static website, so it can be deployed on any static hosting platform such as GitHub Pages, Netlify, or Vercel.
+This project is deployed on Netlify:
+
+https://sambit-frontend-dev-portfolio.netlify.app/
 
 ## Contact
 
 - **Email:** sambitsohan6342@gmail.com
 - **LinkedIn:** [linkedin.com/in/sambit-sohan-sahoo](https://www.linkedin.com/in/sambit-sohan-sahoo/)
 - **GitHub:** [github.com/Sambit-Sohan](https://github.com/Sambit-Sohan)
+
